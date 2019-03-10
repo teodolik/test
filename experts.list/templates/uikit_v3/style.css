@@ -1,0 +1,29 @@
+#experts div.expert {
+    background-color: white;
+    padding: 40px 25px 40px 25px;
+}
+#experts div.expert div.avatar {
+    width: 90px;
+    height: 90px;
+    background-position: center;
+    background-size: cover;
+
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+#experts div.expert div.name a {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 10px;
+    display: block;
+}
+#experts div.expert div.description {
+    padding-bottom: 10px;
+}
+#experts div.expert div.info {
+    color: #989898;
+    padding-top: 10px;
+    font-size: 12px;
+}

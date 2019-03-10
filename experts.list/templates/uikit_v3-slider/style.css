@@ -1,0 +1,145 @@
+div#expertListSlider.expertList {
+
+}
+div#expertListSlider.expertList ul.sliderMenu {
+    padding: 0;
+}
+div#expertListSlider.expertList ul.sliderMenu li {
+    float: left;
+    list-style: none;
+    font-size: 14px;
+    padding-right: 20px;
+}
+div#expertListSlider.expertList ul.sliderMenu li a {
+    color: #6f6f6f;
+}
+div#expertListSlider.expertList ul.sliderMenu li.uk-active a {
+    color: #000;
+}
+div#expertListSlider.expertList.rightBorder div.uk-slider {
+    clear: both;
+    /*width: calc(100vw - ((100vw - 1600px) / 2));*/
+    padding-top: 40px;
+    padding-left: 30px;
+    margin-left: -30px;
+}
+div#expertListSlider.expertList div.uk-slider {
+    clear: both;
+    padding-top: 40px;
+    padding-left: 30px;
+    margin-left: -30px;
+}
+div#expertListSlider.expertList div.uk-slider ul {
+    padding-bottom: 30px;
+}
+div#expertListSlider.expertList div.uk-slider li {
+    padding-bottom: 30px;
+    padding-right: 15px;
+}
+div#expertListSlider.expertList div.uk-slider li > a.element {
+    min-height: 300px;
+    display: block;
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    position: relative;
+
+    color: black;
+    font-size: 14px;
+}
+div#expertListSlider.expertList div.uk-slider li > a.element div.marketTypes {
+    position: absolute;
+    bottom: 30px;
+}
+div#expertListSlider.expertList div.uk-slider li > a.element:hover {
+    text-decoration: none;
+}
+div#expertListSlider.expertList div.uk-slider li > a.element > div.picture {
+    width: 90px;
+    height: 90px;
+}
+div#expertListSlider.expertList div.uk-slider a.arrow {
+    padding-right: 10px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    float: left;
+}
+div#expertListSlider.expertList div.uk-slider a.more {
+    height: 40px;
+    line-height: 40px;
+    background-color: black;
+    display: block;
+    float: left;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+div#expertListSlider.expertList div.uk-slider a.arrow span {
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: block;
+    float: left;
+    background-color: black;
+    position: relative;
+}
+div#expertListSlider.expertList div.uk-slider a.arrow span svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+div#expertListSlider.expertList div.uk-slider li > a.element span.lock {
+    position: absolute;
+    right: 30px;
+    color: #00aaff;
+}
+div#expertListSlider.expertList div.uk-slider li > a.element div.date {
+    color: #6f6f6f;
+    position: absolute;
+    font-size: 12px;
+    bottom: 50px;
+}
+div#expertListSlider.expertList div.uk-slider li > a.element div.avatar {
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+div#expertListSlider.expertList div.uk-slider li > a.element div.name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    padding-top: 20px;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 700px) {
+    div#expertListSlider.expertList div.uk-slider {
+        width: 100%;
+    }
+    div#expertListSlider.expertList div.uk-slider li {
+        padding-bottom: 30px;
+        padding-right: 15px;
+    }
+}
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 1650px) {
+    div#expertListSlider.expertList div.uk-slider {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,45 @@
+#expert {
+    min-height: 500px;
+    position: relative;
+    padding-bottom: 0;
+}
+#expert > div > div {
+    min-height: 400px;
+}
+#expert div.workPosition {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+#expert img.expertPhoto {
+    position: relative;
+    bottom: 0;
+}
+div#expertCertificate {
+    padding-top: 50px;
+}
+div#expertCertificate div.background {
+    background-color: #fafafa;
+    height: 460px;
+    position: relative;
+}
+div#expertCertificate div.background a {
+    position: relative;
+    display: block;
+    height: 460px;
+}
+div#expertCertificate div.background a > img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+div.uk-modal img {
+    max-height: calc(100vh - 200px);
+}
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 700px) {
+    #expert img.expertPhoto {
+        position: relative;
+        bottom: -40px;
+    }
+}
